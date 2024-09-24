@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: rgb(14, 13, 13);
+}
+
+h1, h2, p {
+    margin-bottom: 1.5rem;
+}
+.navbar {
+    background-color: #000000 !important; 
+}
+
+.navbar-brand {
+    font-family: 'Georgia', serif; 
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #fff; 
+}
+
+.navbar .nav-link:hover {
+    color: #fa0505; 
+}
+
+.hero h1 {
+    font-family: 'Verdana', sans-serif; 
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.25rem;
+    color: #f1f1f1;
+}
+/* Estilos para el Carrusel */
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.carousel-item {
+    height: 40vh; 
+    min-height: 200px; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* Estilo para la letra del carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1rem; 
+    border-radius: 0.5rem;
+}
+
+.carousel-caption h5 {
+    font-family: 'Georgia', serif; 
+    font-size: 1.5rem; 
+    color: #ffffff; 
+}
+
+.carousel-caption p {
+    font-family: 'Arial', sans-serif; 
+    font-size: 1rem; 
+    color: #ffffff; 
+}
+/* Footer */
+footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem; 
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #ff1414; 
+}
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9rem; 
+}
+/* Estilos para las imágenes de productos */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Estilos para las tarjetas de productos */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el botón de comprar */
+.btn-primary {
+    background-color: #0c0c0c;
+    border-color: #0a0a0a;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0a0a0a;
+    border-color: #111110;
+}
